@@ -1,0 +1,79 @@
+header{
+  background-image: url('./assets/images/perrito_1.png');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: center;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+#icono-patita{
+  background: white;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+h1{
+  font-family: 'Zilla Slab', serif;
+  color: #F0F1F7
+}
+
+.white{
+  color: #F0F1F7;
+  font-family: 'Nunito', sans-serif;
+  font-size: larger;
+  padding-left: 20px;
+}
+
+#nav-items-contenedor{
+  padding-top: 5%;
+}
+
+.title-wrap{
+  display: flex;
+  justify-content: flex-end;
+}
+.title-content{
+  display: block;
+  width: 33%;
+}
+
+#titlo-principal{
+  font-size: xxx-large;
+}
+
+.item-menu{
+  text-decoration: none;
+}
+
+.flex-center{
+  display: flex;
+  align-items: center;
+}
+
+button{
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  font-family: 'Zilla Slab', serif;
+  font-weight: 300;
+}
+
+#boton1{
+  background-color: #F0F1F7;
+  color: #545871;
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+  #titlo-principal{
+    font-size: medium;
+  }
+}
